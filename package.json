@@ -1,0 +1,29 @@
+{
+  "name": "simrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndiing/SIMRS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndiing/SIMRS/issues"
+  },
+  "homepage": "https://github.com/ndiing/SIMRS#readme",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ],
+    "delay": 2500
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

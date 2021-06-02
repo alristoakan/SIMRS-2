@@ -1,0 +1,658 @@
+[
+    {
+        "_id": "1",
+        "nama": "Harta"
+    },
+    {
+        "_id": "2",
+        "nama": "Kewajiban"
+    },
+    {
+        "_id": "3",
+        "nama": "Modal"
+    },
+    {
+        "_id": "4",
+        "nama": "Pendapatan"
+    },
+    {
+        "_id": "5",
+        "nama": "Biaya atas Pendapatan"
+    },
+    {
+        "_id": "6",
+        "nama": "Pengeluaran Operasional"
+    },
+    {
+        "_id": "7",
+        "nama": "Pengeluaran Non Operasional"
+    },
+    {
+        "_id": "8",
+        "nama": "Pendapatan Lain"
+    },
+    {
+        "_id": "9",
+        "nama": "Pengeluaran Lain"
+    },
+    {
+        "_id": "220",
+        "kelompok": "2",
+        "nama": "Hutang pajak"
+    },
+    {
+        "_id": "215",
+        "kelompok": "2",
+        "nama": "Hutang Non Usaha"
+    },
+    {
+        "_id": "135",
+        "kelompok": "1",
+        "nama": "Piutang Non Usaha"
+    },
+    {
+        "_id": "155",
+        "kelompok": "1",
+        "nama": "Pajak Dibayar Dimuka"
+    },
+    {
+        "_id": "145",
+        "kelompok": "1",
+        "nama": "Pekerjaan Dalam Pelaksanaan"
+    },
+    {
+        "_id": "110",
+        "kelompok": "1",
+        "nama": "Kas"
+    },
+    {
+        "_id": "120",
+        "kelompok": "1",
+        "nama": "Bank"
+    },
+    {
+        "_id": "130",
+        "kelompok": "1",
+        "nama": "Piutang Usaha"
+    },
+    {
+        "_id": "140",
+        "kelompok": "1",
+        "nama": "Persediaan"
+    },
+    {
+        "_id": "150",
+        "kelompok": "1",
+        "nama": "Biaya Dibayar Dimuka"
+    },
+    {
+        "_id": "160",
+        "kelompok": "1",
+        "nama": "Investasi Jangka Panjang"
+    },
+    {
+        "_id": "170",
+        "kelompok": "1",
+        "nama": "Harta Tetap Berwujud"
+    },
+    {
+        "_id": "180",
+        "kelompok": "1",
+        "nama": "Harta Tetap Tidak Berwujud"
+    },
+    {
+        "_id": "190",
+        "kelompok": "1",
+        "nama": "Harta Lainnya"
+    },
+    {
+        "_id": "210",
+        "kelompok": "2",
+        "nama": "Hutang Usaha"
+    },
+    {
+        "_id": "230",
+        "kelompok": "2",
+        "nama": "Pendapatan yang diterima di muka"
+    },
+    {
+        "_id": "240",
+        "kelompok": "2",
+        "nama": "Hutang Jangka Panjang"
+    },
+    {
+        "_id": "250",
+        "kelompok": "2",
+        "nama": "Hutang Lain"
+    },
+    {
+        "_id": "310",
+        "kelompok": "3",
+        "nama": "Modal"
+    },
+    {
+        "_id": "320",
+        "kelompok": "3",
+        "nama": "Laba"
+    },
+    {
+        "_id": "410",
+        "kelompok": "4",
+        "nama": "Pendapatan Usaha"
+    },
+    {
+        "_id": "420",
+        "kelompok": "4",
+        "nama": "Pendapatan Usaha Lainnya"
+    },
+    {
+        "_id": "510",
+        "kelompok": "5",
+        "nama": "Harga Pokok Penjualan"
+    },
+    {
+        "_id": "520",
+        "kelompok": "5",
+        "nama": "Biaya Usaha Lainnya"
+    },
+    {
+        "_id": "610",
+        "kelompok": "6",
+        "nama": "Biaya Administari & Umum"
+    },
+    {
+        "_id": "660",
+        "kelompok": "6",
+        "nama": "Biaya Non Operasional"
+    },
+    {
+        "_id": "810",
+        "kelompok": "8",
+        "nama": "Pendapatan Luar Usaha"
+    },
+    {
+        "_id": "910",
+        "kelompok": "9",
+        "nama": "Pengeluaran Luar Usaha"
+    },
+    {
+        "_id": "11010",
+        "kelompok": "110",
+        "nama": "Kas Kecil"
+    },
+    {
+        "_id": "11020",
+        "kelompok": "110",
+        "nama": "Kas"
+    },
+    {
+        "_id": "11030",
+        "kelompok": "110",
+        "nama": "Kas"
+    },
+    {
+        "_id": "12010",
+        "kelompok": "120",
+        "nama": "Bank"
+    },
+    {
+        "_id": "12020",
+        "kelompok": "120",
+        "nama": "Bank"
+    },
+    {
+        "_id": "13010",
+        "kelompok": "130",
+        "nama": "Piutang Usaha"
+    },
+    {
+        "_id": "13020",
+        "kelompok": "130",
+        "nama": "Piutang Usaha"
+    },
+    {
+        "_id": "13025",
+        "kelompok": "130",
+        "nama": "Piutang Giro"
+    },
+    {
+        "_id": "13030",
+        "kelompok": "130",
+        "nama": "Cadangan Kerugian Piutang"
+    },
+    {
+        "_id": "13098",
+        "kelompok": "130",
+        "nama": "Uang Muka Pembelian"
+    },
+    {
+        "_id": "13099",
+        "kelompok": "130",
+        "nama": "Uang Muka Pembelian"
+    },
+    {
+        "_id": "13510",
+        "kelompok": "135",
+        "nama": "Piutang Karyawan"
+    },
+    {
+        "_id": "13520",
+        "kelompok": "135",
+        "nama": "Piutang Lainnya"
+    },
+    {
+        "_id": "14010",
+        "kelompok": "140",
+        "nama": "Persediaan Bahan Baku"
+    },
+    {
+        "_id": "14020",
+        "kelompok": "140",
+        "nama": "Persediaan Bahan Penolong"
+    },
+    {
+        "_id": "14030",
+        "kelompok": "140",
+        "nama": "Persediaan Barang Jadi"
+    },
+    {
+        "_id": "14098",
+        "kelompok": "140",
+        "nama": "Persediaan Dalam Perjalanan Beli"
+    },
+    {
+        "_id": "14099",
+        "kelompok": "140",
+        "nama": "Persediaan Dalam Perjalanan Jual"
+    },
+    {
+        "_id": "14510",
+        "kelompok": "145",
+        "nama": "Biaya Bahan"
+    },
+    {
+        "_id": "14520",
+        "kelompok": "145",
+        "nama": "Biaya Tenaga Kerja"
+    },
+    {
+        "_id": "14530",
+        "kelompok": "145",
+        "nama": "Biaya Tidak Langsung"
+    },
+    {
+        "_id": "15010",
+        "kelompok": "150",
+        "nama": "Asuransi Dibayar di Muka"
+    },
+    {
+        "_id": "15020",
+        "kelompok": "150",
+        "nama": "Sewa Dibayar di Muka"
+    },
+    {
+        "_id": "15510",
+        "kelompok": "155",
+        "nama": "PPn Dibayar Dimuka"
+    },
+    {
+        "_id": "15520",
+        "kelompok": "155",
+        "nama": "PPh 21 dibayar Dimuka"
+    },
+    {
+        "_id": "16010",
+        "kelompok": "160",
+        "nama": "Investasi Saham"
+    },
+    {
+        "_id": "17010",
+        "kelompok": "170",
+        "nama": "Tanah"
+    },
+    {
+        "_id": "17020",
+        "kelompok": "170",
+        "nama": "Bangunan"
+    },
+    {
+        "_id": "17021",
+        "kelompok": "170",
+        "nama": "Akumulasi Penyusutan Bangunan"
+    },
+    {
+        "_id": "17030",
+        "kelompok": "170",
+        "nama": "Peralatan"
+    },
+    {
+        "_id": "17031",
+        "kelompok": "170",
+        "nama": "Akumulasi Penyusutan Peralatan"
+    },
+    {
+        "_id": "17040",
+        "kelompok": "170",
+        "nama": "Perlengkapan"
+    },
+    {
+        "_id": "17041",
+        "kelompok": "170",
+        "nama": "Akumulasi Penyusutan Perlengkapan"
+    },
+    {
+        "_id": "17050",
+        "kelompok": "170",
+        "nama": "Kendaraan"
+    },
+    {
+        "_id": "17051",
+        "kelompok": "170",
+        "nama": "Akumulasi Penyusutan Kendaraan"
+    },
+    {
+        "_id": "17060",
+        "kelompok": "170",
+        "nama": "Harta Lainnya"
+    },
+    {
+        "_id": "17061",
+        "kelompok": "170",
+        "nama": "Akumulasi Penyusutan Harta Lainnya"
+    },
+    {
+        "_id": "18010",
+        "kelompok": "180",
+        "nama": "Harta Tetap Tidak Berwujud"
+    },
+    {
+        "_id": "19010",
+        "kelompok": "190",
+        "nama": "Biaya Pra Operasi dan Operasi"
+    },
+    {
+        "_id": "19011",
+        "kelompok": "190",
+        "nama": "Akumulasi Amortisasi Pra Operasi dan Operasi"
+    },
+    {
+        "_id": "21010",
+        "kelompok": "210",
+        "nama": "Hutang Usaha"
+    },
+    {
+        "_id": "21020",
+        "kelompok": "210",
+        "nama": "Hutang Usaha"
+    },
+    {
+        "_id": "21025",
+        "kelompok": "210",
+        "nama": "Hutang Giro"
+    },
+    {
+        "_id": "21091",
+        "kelompok": "210",
+        "nama": "Hutang Konsinyasi"
+    },
+    {
+        "_id": "21098",
+        "kelompok": "210",
+        "nama": "Uang Muka Penjualan"
+    },
+    {
+        "_id": "21099",
+        "kelompok": "210",
+        "nama": "Uang Muka Penjualan"
+    },
+    {
+        "_id": "21510",
+        "kelompok": "215",
+        "nama": "Hutang Deviden"
+    },
+    {
+        "_id": "21520",
+        "kelompok": "215",
+        "nama": "Hutang Bunga"
+    },
+    {
+        "_id": "21530",
+        "kelompok": "215",
+        "nama": "Kartu Kredit"
+    },
+    {
+        "_id": "21540",
+        "kelompok": "215",
+        "nama": "Hutang Komisi Penjualan"
+    },
+    {
+        "_id": "21550",
+        "kelompok": "215",
+        "nama": "Hutang Gaji"
+    },
+    {
+        "_id": "22010",
+        "kelompok": "220",
+        "nama": "Hutang PPn"
+    },
+    {
+        "_id": "23010",
+        "kelompok": "230",
+        "nama": "Sewa Diterima di Muka"
+    },
+    {
+        "_id": "24010",
+        "kelompok": "240",
+        "nama": "Hutang Bank"
+    },
+    {
+        "_id": "25010",
+        "kelompok": "250",
+        "nama": "Hutang Lain"
+    },
+    {
+        "_id": "31010",
+        "kelompok": "310",
+        "nama": "Modal Disetor"
+    },
+    {
+        "_id": "31020",
+        "kelompok": "310",
+        "nama": "Saham"
+    },
+    {
+        "_id": "32010",
+        "kelompok": "320",
+        "nama": "Laba ditahan"
+    },
+    {
+        "_id": "32020",
+        "kelompok": "320",
+        "nama": "Laba Tahun Berjalan"
+    },
+    {
+        "_id": "32030",
+        "kelompok": "320",
+        "nama": "Deviden"
+    },
+    {
+        "_id": "32099",
+        "kelompok": "320",
+        "nama": "Historical Balancing"
+    },
+    {
+        "_id": "41010",
+        "kelompok": "410",
+        "nama": "Penjualan Roti"
+    },
+    {
+        "_id": "41020",
+        "kelompok": "410",
+        "nama": "Penjualan Lain"
+    },
+    {
+        "_id": "42010",
+        "kelompok": "420",
+        "nama": "Potongan Penjualan"
+    },
+    {
+        "_id": "42020",
+        "kelompok": "420",
+        "nama": "Pendapatan Denda Keterlambatan"
+    },
+    {
+        "_id": "42030",
+        "kelompok": "420",
+        "nama": "Pendapatan atas Pengantaran"
+    },
+    {
+        "_id": "51010",
+        "kelompok": "510",
+        "nama": "Harga Pokok Roti"
+    },
+    {
+        "_id": "51030",
+        "kelompok": "510",
+        "nama": "Pemakaian Bahan Penolong"
+    },
+    {
+        "_id": "52010",
+        "kelompok": "520",
+        "nama": "Kerugian Piutang"
+    },
+    {
+        "_id": "52020",
+        "kelompok": "520",
+        "nama": "Biaya Denda Keterlambatan"
+    },
+    {
+        "_id": "52030",
+        "kelompok": "520",
+        "nama": "Kerusakan dan Kegagalan Material"
+    },
+    {
+        "_id": "52040",
+        "kelompok": "520",
+        "nama": "Komisi Penjualan"
+    },
+    {
+        "_id": "52050",
+        "kelompok": "520",
+        "nama": "Potongan Pembelian"
+    },
+    {
+        "_id": "52060",
+        "kelompok": "520",
+        "nama": "Biaya atas Pengiriman Barang"
+    },
+    {
+        "_id": "61010",
+        "kelompok": "610",
+        "nama": "Gaji Direksi dan Karyawan"
+    },
+    {
+        "_id": "61015",
+        "kelompok": "610",
+        "nama": "Tunjangan"
+    },
+    {
+        "_id": "61020",
+        "kelompok": "610",
+        "nama": "Lembur"
+    },
+    {
+        "_id": "61025",
+        "kelompok": "610",
+        "nama": "Listrik, Air dan Telpon"
+    },
+    {
+        "_id": "61030",
+        "kelompok": "610",
+        "nama": "Bensin, Parkir dan Tol"
+    },
+    {
+        "_id": "61035",
+        "kelompok": "610",
+        "nama": "Alat Tulis Kantor"
+    },
+    {
+        "_id": "61040",
+        "kelompok": "610",
+        "nama": "Kebersihan dan Keamanan"
+    },
+    {
+        "_id": "61045",
+        "kelompok": "610",
+        "nama": "Rumah Tangga"
+    },
+    {
+        "_id": "61050",
+        "kelompok": "610",
+        "nama": "Perbaikan dan Pemeliharaan"
+    },
+    {
+        "_id": "61055",
+        "kelompok": "610",
+        "nama": "Asuransi"
+    },
+    {
+        "_id": "61060",
+        "kelompok": "610",
+        "nama": "Biaya Sewa"
+    },
+    {
+        "_id": "66010",
+        "kelompok": "660",
+        "nama": "Penyusutan Bangunan"
+    },
+    {
+        "_id": "66020",
+        "kelompok": "660",
+        "nama": "Penyusutan Peralatan"
+    },
+    {
+        "_id": "66030",
+        "kelompok": "660",
+        "nama": "Penyusutan Perlengkapan"
+    },
+    {
+        "_id": "66040",
+        "kelompok": "660",
+        "nama": "Penyusutan Kendaraan"
+    },
+    {
+        "_id": "66050",
+        "kelompok": "660",
+        "nama": "Penyusutan Harta Lainnya"
+    },
+    {
+        "_id": "66060",
+        "kelompok": "660",
+        "nama": "Amortisasi Pra Operasi dan Opreasi"
+    },
+    {
+        "_id": "81010",
+        "kelompok": "810",
+        "nama": "Pendapatan Bunga Bank"
+    },
+    {
+        "_id": "81020",
+        "kelompok": "810",
+        "nama": "Laba Selisih"
+    },
+    {
+        "_id": "91010",
+        "kelompok": "910",
+        "nama": "Biaya Bunga Bank"
+    },
+    {
+        "_id": "91020",
+        "kelompok": "910",
+        "nama": "Bank Administrasi"
+    },
+    {
+        "_id": "91030",
+        "kelompok": "910",
+        "nama": "Rugi Selisih"
+    }
+]

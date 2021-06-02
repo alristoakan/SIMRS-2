@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ndiing/material3@master/components/material.css" />
+    <style>
+      my-layout {
+        margin: 0;
+      }
+
+      #myDataTable {
+        /* height: calc(64px + 56px + (52px * 10) + 52px); */
+        /* height: calc(100vh - (24px * 2)); */
+        height: 100vh;
+      }
+
+      #myDataTable th:nth-child(1) {
+        width: 1%;
+      }
+
+      #myDataTable th:nth-child(2) {
+        width: 1%;
+      }
+
+      #myDataTable th:nth-child(3) {
+        width: 98%;
+      }
+
+      /* my-data-table-header-label {
+            width: 256px;
+        }
+        #myDataTableHeaderField {
+            width: calc(64px * 12);
+        } */
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500&family=Material+Icons+Outlined&display=swap");
+      body {
+        font-family: "Google Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <my-layout>
+      <my-layout-row>
+        <my-layout-column largeSize="12" mediumSize="8" smallSize="4">
+          <my-data-table id="myDataTable" pagination limit="20" selectable limits="[5,10,20]">
+            <my-data-table-header>
+              <my-data-table-header-row>
+                <my-data-table-header-actions>
+                  <my-icon my-data-table-header-action>image</my-icon>
+                </my-data-table-header-actions>
+                <my-data-table-header-label>
+                  <my-data-table-header-label-primary typography="headline6">Label </my-data-table-header-label-primary>
+                </my-data-table-header-label>
+                <my-data-table-header-spacer></my-data-table-header-spacer>
+                <my-field id="myDataTableHeaderField" my-data-table-header-field appearance="search" placeholder="Apakah yang engkau cari?"></my-field>
+              </my-data-table-header-row>
+            </my-data-table-header>
+          </my-data-table>
+        </my-layout-column>
+      </my-layout-row>
+    </my-layout>
+
+    <script src="https://cdn.jsdelivr.net/gh/ndiing/material3@master/components/material.js" type="module"></script>
+    <script type="module">
+      import { LayoutObserver } from "https://cdn.jsdelivr.net/gh/ndiing/material3@master/components/layout.js";
+      import { Dialog } from "https://cdn.jsdelivr.net/gh/ndiing/material3@master/components/dialog.js";
+      import { data } from "./index.js";
+
+      let columns = [
+        { name: "_id", text: "Kode" },
+        { name: "kelompok", text: "Klasifikasi" },
+        { name: "nama", text: "Keterangan" },
+      ];
+      myDataTable.columns = columns;
+      myDataTable.data = data.akun;
+
+      myDataTableHeaderField.addEventListener("onFieldInput", (event) => {
+        myDataTable.filters = [{ name: "nama", value: event.detail.value }];
+      });
+
+      myDataTable.addEventListener("onDataTableCellRowClick", (event) => {
+        let row = event.detail.event.currentTarget.closest('tr').row
+        Dialog.show({
+          body: row.nama,
+          buttons:['TIDAK OK', {
+            text:'OK',
+            contained: true,
+            unelevated: true,
+          }],
+          onDialogFooterButtonClick() {
+            Dialog.hide()
+          }
+        })
+      });
+
+      new LayoutObserver((event) => {
+        if (event.newWindow == "large") {
+          myDataTable.columns = columns;
+        } else {
+          myDataTable.columns = [{ name: "nama", text: "Keterangan" }];
+        }
+      });
+    </script>
+  </body>
+</html>

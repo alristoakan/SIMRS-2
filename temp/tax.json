@@ -1,0 +1,30 @@
+[
+    {
+      "NOINDEX": 1,
+      "PAJAK": "VAT",
+      "NAMAPAJAK": "Value Added Tax",
+      "PERSENTASE": 10,
+      "KETERANGAN": "(MEMO)",
+      "KODEAKUNBELI": 15510,
+      "KODEAKUNJUAL": 22010,
+      "ISMENGURANGIHPP": "F",
+      "BOBOT": "",
+      "BARISKE": 1,
+      "ISPPH": "F",
+      "TANGGALEDIT": "6/12/2008 6:10:16 AM"
+    },
+    {
+      "NOINDEX": -1,
+      "PAJAK": ".",
+      "NAMAPAJAK": "No Tax",
+      "PERSENTASE": 0,
+      "KETERANGAN": "(MEMO)",
+      "KODEAKUNBELI": "",
+      "KODEAKUNJUAL": "",
+      "ISMENGURANGIHPP": "F",
+      "BOBOT": "",
+      "BARISKE": 0,
+      "ISPPH": "F",
+      "TANGGALEDIT": "6/12/2008 6:10:01 AM"
+    }
+  ]

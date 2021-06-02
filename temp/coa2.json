@@ -1,0 +1,254 @@
+[
+    {
+      "NOSUBKLASIFIKASI": 220,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Tax payable",
+      "NAMASUBKLASIFIKASI": "Hutang pajak",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "",
+      "TANGGALEDIT": "5/27/2008 10:48:55 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 215,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Non Trade Liabilities",
+      "NAMASUBKLASIFIKASI": "Hutang Non Usaha",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "",
+      "TANGGALEDIT": "5/31/2008 11:03:08 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 135,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Non Trade Recaivables",
+      "NAMASUBKLASIFIKASI": "Piutang Non Usaha",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "",
+      "TANGGALEDIT": "5/27/2008 10:47:50 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 155,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Prepaid Tax",
+      "NAMASUBKLASIFIKASI": "Pajak Dibayar Dimuka",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "",
+      "TANGGALEDIT": "5/26/2008 6:41:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 145,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Work In Process",
+      "NAMASUBKLASIFIKASI": "Pekerjaan Dalam Pelaksanaan",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "",
+      "TANGGALEDIT": "5/27/2008 10:47:47 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 110,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Cash",
+      "NAMASUBKLASIFIKASI": "Kas",
+      "CASHFLOWID": 0,
+      "NAMASUBKLASTEMP": "Cash",
+      "TANGGALEDIT": "5/27/2008 10:48:25 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 120,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Bank",
+      "NAMASUBKLASIFIKASI": "Bank",
+      "CASHFLOWID": 0,
+      "NAMASUBKLASTEMP": "Bank",
+      "TANGGALEDIT": "5/27/2008 10:48:22 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 130,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Trade Recaivables",
+      "NAMASUBKLASIFIKASI": "Piutang Usaha",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Trade Recaivables",
+      "TANGGALEDIT": "5/31/2008 10:44:29 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 140,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Inventories",
+      "NAMASUBKLASIFIKASI": "Persediaan",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Inventories",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 150,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Prepaid Expense",
+      "NAMASUBKLASIFIKASI": "Biaya Dibayar Dimuka",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Prepaid Expense",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 160,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Long Term Investment",
+      "NAMASUBKLASIFIKASI": "Investasi Jangka Panjang",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Long Term Investment",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 170,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Fixed Asset",
+      "NAMASUBKLASIFIKASI": "Harta Tetap Berwujud",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Fixed Asset",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 180,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Intangible Asset",
+      "NAMASUBKLASIFIKASI": "Harta Tetap Tidak Berwujud",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Intangible asset",
+      "TANGGALEDIT": "5/31/2008 11:18:22 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 190,
+      "NOKLASIFIKASI": 1,
+      "ALIASSUBKLASIFIKASI": "Other Asset",
+      "NAMASUBKLASIFIKASI": "Harta Lainnya",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Other Asset",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 210,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Trade Liabilities",
+      "NAMASUBKLASIFIKASI": "Hutang Usaha",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Current Liabilities",
+      "TANGGALEDIT": "5/31/2008 11:02:58 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 230,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Customer Deposit",
+      "NAMASUBKLASIFIKASI": "Pendapatan yang diterima di muka",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Customer Deposit",
+      "TANGGALEDIT": "5/27/2008 10:48:52 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 240,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Long Term Liabilities",
+      "NAMASUBKLASIFIKASI": "Hutang Jangka Panjang",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Long Term Liabilities",
+      "TANGGALEDIT": "5/27/2008 10:48:51 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 250,
+      "NOKLASIFIKASI": 2,
+      "ALIASSUBKLASIFIKASI": "Other Liabilities",
+      "NAMASUBKLASIFIKASI": "Hutang Lain",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Other Liabilities",
+      "TANGGALEDIT": "5/27/2008 10:48:49 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 310,
+      "NOKLASIFIKASI": 3,
+      "ALIASSUBKLASIFIKASI": "Equity",
+      "NAMASUBKLASIFIKASI": "Modal",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Equitiy",
+      "TANGGALEDIT": "5/31/2008 9:54:07 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 320,
+      "NOKLASIFIKASI": 3,
+      "ALIASSUBKLASIFIKASI": "Earning",
+      "NAMASUBKLASIFIKASI": "Laba",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Earning",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 410,
+      "NOKLASIFIKASI": 4,
+      "ALIASSUBKLASIFIKASI": "Operating Income",
+      "NAMASUBKLASIFIKASI": "Pendapatan Usaha",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Operating Income",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 420,
+      "NOKLASIFIKASI": 4,
+      "ALIASSUBKLASIFIKASI": "Other Operating Income",
+      "NAMASUBKLASIFIKASI": "Pendapatan Usaha Lainnya",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Other Income",
+      "TANGGALEDIT": "5/31/2008 11:34:16 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 510,
+      "NOKLASIFIKASI": 5,
+      "ALIASSUBKLASIFIKASI": "Cost of Goods Sold",
+      "NAMASUBKLASIFIKASI": "Harga Pokok Penjualan",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Cost of Goods Sold",
+      "TANGGALEDIT": "5/31/2008 11:06:49 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 520,
+      "NOKLASIFIKASI": 5,
+      "ALIASSUBKLASIFIKASI": "Other Cost",
+      "NAMASUBKLASIFIKASI": "Biaya Usaha Lainnya",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Other Cost",
+      "TANGGALEDIT": "5/31/2008 11:07:00 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 610,
+      "NOKLASIFIKASI": 6,
+      "ALIASSUBKLASIFIKASI": "Administration & General  Expense",
+      "NAMASUBKLASIFIKASI": "Biaya Administari & Umum",
+      "CASHFLOWID": 1,
+      "NAMASUBKLASTEMP": "Operating Expense",
+      "TANGGALEDIT": "5/31/2008 11:10:29 AM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 660,
+      "NOKLASIFIKASI": 6,
+      "ALIASSUBKLASIFIKASI": "Non Operating Expense",
+      "NAMASUBKLASIFIKASI": "Biaya Non Operasional",
+      "CASHFLOWID": 2,
+      "NAMASUBKLASTEMP": "Non Operating Expense",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 810,
+      "NOKLASIFIKASI": 8,
+      "ALIASSUBKLASIFIKASI": "Other Income",
+      "NAMASUBKLASIFIKASI": "Pendapatan Luar Usaha",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Other Income",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    },
+    {
+      "NOSUBKLASIFIKASI": 910,
+      "NOKLASIFIKASI": 9,
+      "ALIASSUBKLASIFIKASI": "Other Expense",
+      "NAMASUBKLASIFIKASI": "Pengeluaran Luar Usaha",
+      "CASHFLOWID": 3,
+      "NAMASUBKLASTEMP": "Other Expense",
+      "TANGGALEDIT": "5/26/2008 6:31:43 PM"
+    }
+  ]
